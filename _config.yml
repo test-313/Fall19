@@ -42,3 +42,103 @@ cal_dates: >
   ]
 
 
+collections:
+  hwk:
+    output: true
+    permalink: /hwk/:path/
+    last_before: false
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  project:
+    output: true
+    permalink: /project/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+  staff:
+    output: true
+    permalink: /staff/:path
+  admin:
+    output: true
+    permalink: /admin/:path
+
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  - 
+    scope:
+      path: ""
+      type: lectures
+    values:
+      layout: lecture
+  - 
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
+  - 
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: project
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: info
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout
+  -
+    scope:
+     path: ""
+     type: staff
+    values:
+     layout: staff
+  -
+    scope:
+     path: ""
+     type: admin
+    values:
+     layout: default
+
+  - scope:
+     path: ""
+     type: pages
+    values:
+     layout: default
+
+head_scripts:
+   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
