@@ -1,12 +1,16 @@
 ---
+num: "hw1"
+desc: "Requirements and User Stories"
+ready: true
+assigned: 2019-08-26 14:00
+due: 2019-09-06 23:59
 ---
-
 
 17-356/17-766: Software Engineering for Startups
 Homework 1: Requirements and User Stories
 
 50 points
-Due: Tuesday, January 22, 2019
+Due: {{ page.due }}
 This homework is to be done individually.
 
 Submission: Submit this assignment as a PDF file to Canvas.  If you prepare the response in some other software (like Word), please export as PDF before submitting.  Include your name and Andrew ID at the top of the document. 
