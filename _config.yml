@@ -23,4 +23,22 @@ course: "17-313"
 qtr: "F19"
 quarter: "Fall 2019"
 
+start_week: 1
+start_date: 2019-08-25 
+num_weeks: 16
+extra_exam_week: true
+sections: "10am,&nbsp;11am"
+
+cal_dates: >
+  [
+    {"label":"F19 official start date", "date":"2019-08-26" },
+    {"label":"F19 1st day of instruction", "date":"2019-08-27" },	
+    {"label":"Univ Holiday", "date":"2019-09-11" },
+    {"label":"Univ Holiday", "date":"2019-11-11" },
+    {"label":"F19 instruction ends", "date":"2019-12-15" },
+    {"label":"F19 finals start", "date":"2019-12-13" },
+    {"label":"F19 finals end", "date":"2019-12-20" },
+    {"label":"F19 qtr ends", "date":"2019-12-23" }
+  ]
+
 
